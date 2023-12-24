@@ -1,0 +1,276 @@
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/monitor/collections/changes/changeset?collection=query-stripping&bucket=main&_expected=0)
+  response = Response(200, application/json, 223b)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/monitor/collections/changes/changeset?collection=partitioning-exempt-urls&bucket=main&_expected=0)
+  response = Response(200, application/json, 232b)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/monitor/collections/changes/changeset?collection=fingerprinting-protection-overrides&bucket=main&_expected=0)
+  response = Response(200, application/json, 243b)
+  client_conn = Client(127.0.0.1:41270, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52298)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/query-stripping/changeset?_expected=1694689843914)
+  response = Response(200, application/json, 2.0k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/partitioning-exempt-urls/changeset?_expected=1702403047185)
+  response = Response(200, application/json, 2.3k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/fingerprinting-protection-overrides/changeset?_expected=1683645166454)
+  response = Response(200, application/json, 703b)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET apikeys.civiccomputing.com:443/c/v?d=about.cilabs.com&p=CookieControl%20Multi-Site&v=9&k=a59b8c000829b3b7d85ac1a635ac43e8b055010e&format=json)
+  response = Response(400, application/json, 107b)
+  client_conn = Client(127.0.0.1:41868, state=closed, alpn=h2)
+  server_conn = Server(apikeys.civiccomputing.com:443, state=closed, alpn=h2, src_port=52358)>
+
+<HTTPFlow
+  request = Request(POST about.cilabs.com:443/monitoring/?o=4506190876311552&p=4506190878212096)
+  response = Response(200, application/json, 2b)
+  client_conn = Client(127.0.0.1:41546, state=closed, alpn=h2)
+  server_conn = Server(about.cilabs.com:443, state=closed, alpn=h2, src_port=45090)>
+
+<HTTPFlow
+  request = Request(POST about.cilabs.com:443/monitoring/?o=4506190876311552&p=4506190878212096)
+  response = Response(200, application/json, 2b)
+  client_conn = Client(127.0.0.1:41546, state=closed, alpn=h2)
+  server_conn = Server(about.cilabs.com:443, state=closed, alpn=h2, src_port=45090)>
+
+<HTTPFlow
+  request = Request(POST about.cilabs.com:443/monitoring/?o=4506190876311552&p=4506190878212096)
+  response = Response(200, application/json, 2b)
+  client_conn = Client(127.0.0.1:41546, state=closed, alpn=h2)
+  server_conn = Server(about.cilabs.com:443, state=closed, alpn=h2, src_port=45090)>
+
+<HTTPFlow
+  request = Request(GET apikeys.civiccomputing.com:443/c/v?d=about.cilabs.com&p=CookieControl%20Multi-Site&v=9&k=a59b8c000829b3b7d85ac1a635ac43e8b055010e&format=json)
+  response = Response(400, application/json, 107b)
+  client_conn = Client(127.0.0.1:41868, state=closed, alpn=h2)
+  server_conn = Server(apikeys.civiccomputing.com:443, state=closed, alpn=h2, src_port=42142)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/monitor/collections/changes/changeset?_expected=0)
+  response = Response(200, application/json, 23.3k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/blocklists/collections/addons-bloomfilters/changeset?_expected=1702989358799&_since=%221700570172226%22)
+  response = Response(200, application/json, 24.3k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/blocklists/collections/gfx?_expected=1692730580117)
+  response = Response(200, application/json, 4.8k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/normandy-recipes-capabilities/changeset?_expected=1703203263971)
+  response = Response(200, application/json, 53.4k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/translations-models/changeset?_expected=1701186751747&_since=%221698173965395%22)
+  response = Response(200, application/json, 62.1k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/search-config/changeset?_expected=1701806851414&_since=%221695659360044%22)
+  response = Response(200, application/json, 12.9k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/language-dictionaries?_expected=1673270322227)
+  response = Response(200, application/json, 1.1k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/password-recipes?_expected=1674595048726)
+  response = Response(200, application/json, 1.4k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/password-rules?_expected=1679600032742)
+  response = Response(200, application/json, 655b)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/translations-identification-models?_expected=1681500405555)
+  response = Response(200, application/json, 1.0k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/url-classifier-skip-urls/changeset?_expected=1701090424142&_since=%221606870304609%22)
+  response = Response(200, application/json, 1.4k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/search-config-v2/changeset?_expected=1702906502761&_since=%221695659360045%22)
+  response = Response(200, application/json, 109k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/search-config-v2/changeset?_expected=1702906502761)
+  response = Response(200, application/json, 109k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(POST about.cilabs.com:443/monitoring/?p=4506190878212096&o=4506190876311552)
+  response = Response(200, application/json, 2b)
+  client_conn = Client(127.0.0.1:41546, state=closed, alpn=h2)
+  server_conn = Server(about.cilabs.com:443, state=closed, alpn=h2, src_port=45090)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/devtools-compatibility-browsers/changeset?_expected=1702890886929&_since=%221700557930490%22)
+  response = Response(200, application/json, 7.0k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/sites-classification?_expected=1544035467383)
+  response = Response(200, application/json, 662b)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/anti-tracking-url-decoration?_expected=1564511755134)
+  response = Response(200, application/json, 695b)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/search-default-override-allowlist?_expected=1595254618540)
+  response = Response(200, application/json, 770b)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/hijack-blocklists?_expected=1605801189258)
+  response = Response(200, application/json, 682b)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(POST about.cilabs.com:443/monitoring/?o=4506190876311552&p=4506190878212096)
+  response = Response(200, application/json, 2b)
+  client_conn = Client(127.0.0.1:41546, state=closed, alpn=h2)
+  server_conn = Server(about.cilabs.com:443, state=closed, alpn=h2, src_port=45090)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/pioneer-study-addons-v1/changeset?_expected=1607042143590)
+  response = Response(200, application/json, 10.3k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/tippytop/changeset?_expected=1627481728329)
+  response = Response(200, application/json, 17.5k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/top-sites?_expected=1647020600359)
+  response = Response(200, application/json, 3.6k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/doh-providers/changeset?_expected=1647549722107&_since=%221621943542621%22)
+  response = Response(200, application/json, 3.1k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/doh-config/changeset?_expected=1651753780606&_since=%221621943462970%22)
+  response = Response(200, application/json, 4.1k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET apikeys.civiccomputing.com:443/c/v?d=about.cilabs.com&p=CookieControl%20Multi-Site&v=9&k=a59b8c000829b3b7d85ac1a635ac43e8b055010e&format=json)
+  response = Response(400, application/json, 107b)
+  client_conn = Client(127.0.0.1:41868, state=closed, alpn=h2)
+  server_conn = Server(apikeys.civiccomputing.com:443, state=closed, alpn=h2, src_port=54810)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/devtools-devices?_expected=1653469171354)
+  response = Response(200, application/json, 1.6k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/websites-with-shared-credential-backends?_expected=1659924446436)
+  response = Response(200, application/json, 680b)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/addons-manager-settings/changeset?_expected=1688747728721)
+  response = Response(200, application/json, 2.5k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/search-telemetry-v2?_expected=1698666532326)
+  response = Response(200, application/json, 3.2k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/cookie-banner-rules-list/changeset?_expected=1702633230760&_since=%221700826062722%22)
+  response = Response(200, application/json, 25.8k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(GET firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/translations-wasm/changeset?_expected=1701359282479&_since=%221681500422552%22)
+  response = Response(200, application/json, 1.9k)
+  client_conn = Client(127.0.0.1:41260, state=closed, alpn=h2)
+  server_conn = Server(firefox.settings.services.mozilla.com:443, state=closed, alpn=h2, src_port=52292)>
+
+<HTTPFlow
+  request = Request(POST about.cilabs.com:443/monitoring/?p=4506190878212096&o=4506190876311552)
+  response = Response(200, application/json, 2b)
+  client_conn = Client(127.0.0.1:41546, state=closed, alpn=h2)
+  server_conn = Server(about.cilabs.com:443, state=closed, alpn=h2, src_port=45090)>
+
+<HTTPFlow
+  request = Request(POST about.cilabs.com:443/monitoring/?o=4506190876311552&p=4506190878212096)
+  response = Response(200, application/json, 2b)
+  client_conn = Client(127.0.0.1:41546, state=closed, alpn=h2)
+  server_conn = Server(about.cilabs.com:443, state=closed, alpn=h2, src_port=45090)>
+
+<HTTPFlow
+  request = Request(GET apikeys.civiccomputing.com:443/c/v?d=about.cilabs.com&p=CookieControl%20Multi-Site&v=9&k=a59b8c000829b3b7d85ac1a635ac43e8b055010e&format=json)
+  response = Response(400, application/json, 107b)
+  client_conn = Client(127.0.0.1:41868, state=closed, alpn=h2)
+  server_conn = Server(apikeys.civiccomputing.com:443, state=closed, alpn=h2, src_port=54810)>
+

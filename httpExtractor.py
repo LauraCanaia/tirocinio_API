@@ -37,4 +37,5 @@ def extract_json_responses(flow_file, outputfile):
                         output_file.write("\n")
 
 # first filter to strain the http flow in order to get only the responses with json in it
-extract_json_responses('about.cilabs.com/flowDump', 'output.txt')
+extract_json_responses('about.cilabs.com/flowDump', 'about.cilabs.com/output.txt')
+
