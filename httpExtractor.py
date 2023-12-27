@@ -33,9 +33,11 @@ def extract_json_responses(flow_file, outputfile):
                 if isinstance(f, HTTPFlow):
                     # check if in the content type field the substring 'json' is present
                     if "json" in f.response.headers.get("Content-Type", ""):
-                        output_file.write(f"{f.type}://{f.request.authority}{f.request.path}\n")
-                        output_file.write(f"{f}\n")
-                        output_file.write("\n")
+                        if f.request.method in ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS', 'HEAD', 'CONNECT', 'TRACE'] :
+                            split_path = (f.request.path).split('/', 3)
+                            output_file.write(f"{f.type}://{f.request.authority}/{split_path[1]}\n")
+                            output_file.write(f"{f}\n")
+                            output_file.write("\n")
 
 # first filter to strain the http flow in order to get only the responses with json in it
 extract_json_responses('about.cilabs.com/flowDump', 'about.cilabs.com/output.txt')
