@@ -1,4 +1,10 @@
+<<<<<<< Updated upstream
 __WORK IN PROGRESS__
+=======
+<img alt="alert" height="25" src="png-transparent-warning-sign-caution-frame-angle-image-file-formats-text.png" width="50"/>
+WORK IN PROGRESS
+<img alt="alert" height="25" src="png-transparent-warning-sign-caution-frame-angle-image-file-formats-text.png" width="50"/>
+>>>>>>> Stashed changes
 
 # Automatic swagger specification #
 This project contains a .sh that joins different tools (like crawljax or mitmproxy) in order to help the automation of the 
