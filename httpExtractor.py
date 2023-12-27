@@ -33,6 +33,7 @@ def extract_json_responses(flow_file, outputfile):
                 if isinstance(f, HTTPFlow):
                     # check if in the content type field the substring 'json' is present
                     if "json" in f.response.headers.get("Content-Type", ""):
+                        output_file.write(f"{f.type}://{f.request.authority}{f.request.path}\n")
                         output_file.write(f"{f}\n")
                         output_file.write("\n")
 
