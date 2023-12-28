@@ -1,6 +1,7 @@
 from mitmproxy.http import HTTPFlow
 from mitmproxy.io import FlowReader
 import os
+import sys
 
 
 def extract_json_responses(flow_file):
@@ -38,5 +39,5 @@ def write_in_output_file(outputfile, api_list):
 
 
 # first filter to strain the http flow in order to get only the responses with json in it
-list_of_API = extract_json_responses('about.cilabs.com/flowDump')
-write_in_output_file('about.cilabs.com/output.txt', list_of_API)
+list_of_API = extract_json_responses(f"{sys.argv[1]}/flowDump")
+write_in_output_file(f"{sys.argv[1]}/output.txt", list_of_API)
